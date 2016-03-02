@@ -1,0 +1,22 @@
+unit uCorrente;
+
+interface
+uses uConta;
+
+type
+  TCorrente = class(TConta)
+  public
+    function Saque: String; override;
+
+  end;
+
+implementation
+
+{ TCorrente }
+
+function TCorrente.Saque: String;
+begin
+  Result := 'Anda com 4 patas';
+end;
+
+end.

@@ -1,0 +1,15 @@
+unit uMulher;
+
+interface
+uses uPessoa;
+
+type
+  TMulher = class(TPessoa)
+
+  end;
+  
+implementation
+
+{ TMulher }
+
+end.

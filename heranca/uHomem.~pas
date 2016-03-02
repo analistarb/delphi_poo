@@ -1,0 +1,21 @@
+unit uHomem;
+
+interface
+uses uPessoa;
+
+type
+  THomem = class(TPessoa)
+  private
+    FTamanhoBarba: integer;
+
+  public
+    property TamanhoBarba  :String read FTamanhoBarba write FTamanhoBarba;
+    procedure TamanhoBarba;
+  end;
+
+implementation
+
+{ THomem }
+ 
+
+end.

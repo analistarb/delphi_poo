@@ -1,0 +1,17 @@
+unit uRoda;
+
+interface
+
+type
+  TRoda = class(TObject)
+  public
+    public FCor: string;
+    public FAro: integer;
+  end;
+
+implementation
+
+{ TRoda }
+
+
+end.
